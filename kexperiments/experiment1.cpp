@@ -32,17 +32,17 @@ int main()
   	///////////////
   	vector<int>::iterator ptr;
   	
-  	vector<int> choot;
+  	vector<int> grid;
   	for(int i=1; i<=6; i++)
-  	 choot.push_back(i);
-  	choot.pop_back();
+  	 grid.push_back(i);
+  	grid.pop_back();
   	
   	cout<<endl<<endl;
   	
-  	for(int x : choot)
+  	for(int x : grid)
   	 cout << x <<" ";
   	 cout<<endl;
-  	for(ptr = choot.begin(); ptr!= choot.end(); ++ptr)
+  	for(ptr = grid.begin(); ptr!= grid.end(); ++ptr)
   	  cout<<*ptr<<'\t';
   	//////////////
   	cout<<endl<<endl;

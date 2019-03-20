@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<fstream>
 #include<algorithm>
 #define lex_punct_condn i == '-' || i == '{' || i == '}' || i == ':' || i == ';' || i == '<' || i == '>' || i == '\"' || i == '.' || i == '/' || i == ',' || i == '\'' || i == '?' || i == '!' || i == '(' || i == ')'
 
